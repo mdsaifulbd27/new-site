@@ -1,0 +1,1111 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&family=Work+Sans:wght@400;500;600&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.topbar {
+  background: rgb(245, 245, 245);
+}
+.container {
+  width: 1140px;
+  margin: auto;
+  padding: 15px;
+}
+.numbar {
+  float: left;
+  width: 200px;
+  border-left: 1.2px solid rgb(228, 228, 228);
+  font-family: "Work Sans", sans-serif;
+  font-size: 15px;
+  padding: 4px;
+}
+.numbar i {
+  color: rgb(255, 82, 0);
+  padding-right: 5px;
+}
+.email {
+  float: left;
+  width: 720px;
+  border-left: 1.2px solid rgb(228, 228, 228);
+  padding: 4px 4px 4px 15px;
+  font-family: "Work Sans", sans-serif;
+  font-size: 15px;
+}
+.email i {
+  color: rgb(255, 82, 0);
+  padding-right: 5px;
+}
+.media a {
+  text-decoration: none;
+  color: rgb(34, 34, 34);
+  font-size: 15px;
+}
+.media a i {
+  padding: 7px 7px 7px 15px;
+  border-left: 1.2px solid rgb(228, 228, 228);
+  margin-right: 10px;
+}
+.fa-linkedin:last-child {
+  border-right: 1.2px solid rgb(228, 228, 228);
+  padding-right: 15px;
+}
+.media a i:hover {
+  color: rgb(9, 180, 143);
+  transition: all 0.5s ease 0s;
+}
+.menu {
+  margin-top: 10px;
+}
+.logo img {
+  width: 130px;
+  float: left;
+}
+.manu-bar ul {
+  float: right;
+  margin-top: 16px;
+}
+.manu-bar ul li {
+  display: inline;
+}
+.manu-bar ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 10px 10px 30px;
+  transition: all 0.5s ease 0s;
+  font-family: oswald;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 1.2px;
+  font-size: 16px;
+}
+.manu-bar ul li:first-child {
+  color: red;
+}
+.manu-bar ul li:last-child {
+  margin-right: 38px;
+}
+.manu-bar ul li a:hover {
+  color: rgb(255, 82, 0);
+}
+.slider {
+  background: linear-gradient(rgba(36, 51, 31, 0.34), rgba(31, 39, 37, 0.337))
+      center center no-repeat,
+    url("img/slide-2.jpg");
+  margin-top: 50px;
+}
+.mainslider {
+  margin-top: 30px;
+}
+.mainslider h1 {
+  font-size: 50px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 70px;
+  font-family: oswald;
+  color: white;
+  margin-top: 110px;
+}
+.mainslider p {
+  color: white;
+  line-height: 27px;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: "Work Sans", sans-serif;
+  margin-top: 30px;
+}
+.btn {
+  padding: 12px 38px;
+  background: rgb(255, 82, 0);
+  border: none;
+  color: white;
+  border-radius: 2px;
+  cursor: pointer;
+  font-family: oswald;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: 30px;
+  text-transform: uppercase;
+  transition: all 0.5s ease 0s;
+}
+.btn:hover {
+  background: rgb(37, 37, 37);
+}
+.dot {
+  width: 60px;
+  margin: 80px auto auto;
+  padding-bottom: 25px;
+}
+.dot span {
+  height: 11px;
+  width: 11px;
+  display: block;
+  background: transparent;
+  border: 3px solid rgb(203, 203, 203);
+  border-radius: 50px;
+  float: left;
+  margin-right: 7px;
+}
+.dot span:last-child {
+  background: rgb(255, 82, 0);
+  padding: 3px;
+  border: none;
+}
+.service {
+  background: rgb(245, 246, 246);
+  overflow: hidden;
+}
+.singlebox {
+  background: white;
+  width: 250px;
+  margin: 70px 30px 70px 0px;
+  float: left;
+  transition: all 0.5s ease 0s;
+}
+.singlebox:hover {
+  background: rgb(255, 82, 0);
+  cursor: pointer;
+}
+.singlebox:hover i {
+  color: white;
+}
+.singlebox:hover h2 {
+  color: white;
+}
+.singlebox:hover p {
+  color: white;
+}
+.singlebox:hover a {
+  color: white;
+}
+.active {
+  background: rgb(255, 82, 0);
+}
+.active h2 {
+  color: white !important;
+}
+.active i {
+  color: white !important;
+}
+.active p {
+  color: white !important;
+}
+.active a {
+  color: white !important;
+}
+.icon {
+  color: rgb(255, 82, 0);
+  text-align: center;
+  font-size: 50px;
+  padding: 30px 0px;
+}
+.heading h2 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: oswald;
+  color: rgb(33, 37, 41);
+  width: 160px;
+  margin: auto;
+  line-height: 28px;
+}
+.title p {
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 20px auto;
+  font-family: "work sans";
+  color: rgb(33, 37, 41);
+}
+.link {
+  text-align: center;
+  font-family: "work sans";
+  padding-bottom: 30px;
+  font-size: 15px;
+  line-height: 22px;
+  color: rgb(33, 37, 41);
+}
+.link a {
+  text-decoration: none;
+  color: rgb(255, 82, 0);
+}
+.link i {
+  color: rgb(255, 82, 0);
+  font-size: 10px;
+  margin-left: 8px;
+}
+.dbox {
+  margin-top: 80px;
+}
+.dimg {
+  width: 50%;
+}
+.dimg img {
+  max-width: 100%;
+  float: left;
+  margin-right: 50px;
+}
+.content {
+  width: 500px;
+  float: left;
+}
+.content h1 {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+  font-family: oswald;
+}
+.content p {
+  margin-top: 30px;
+  line-height: 24px;
+  font-size: 16px;
+  font-family: "work sans";
+  width: 520px;
+  margin-bottom: 30px;
+}
+.list {
+  margin-top: 30px;
+}
+.ulleft {
+  display: inline-block;
+}
+.ulleft ul {
+}
+.ulleft ul li {
+  list-style-type: none;
+  padding: 10px;
+}
+.ulleft ul li a {
+  text-decoration: none;
+  color: rgb(33, 37, 41);
+  font-weight: 500;
+  line-height: 22px;
+  font-size: 16px;
+  font-family: "work sans";
+}
+.ulright {
+  float: left;
+  width: 250px;
+}
+.ulright ul li {
+  list-style-type: none;
+  padding: 10px;
+}
+.ulright ul li a {
+  text-decoration: none;
+  color: rgb(33, 37, 41);
+  font-weight: 500;
+  line-height: 22px;
+  font-size: 16px;
+  font-family: "work sans";
+}
+.ulright ul li a:hover {
+  color: rgb(255, 82, 0);
+}
+.ulleft ul li a:hover {
+  color: rgb(255, 82, 0);
+}
+.ulright ul li a i {
+  margin-right: 10px;
+  color: rgb(146, 159, 171);
+  font-size: 13px;
+}
+.ulleft ul li a i {
+  margin-right: 10px;
+  color: rgb(146, 159, 171);
+  font-size: 13px;
+}
+.btn-2 {
+  margin-top: 25px;
+  text-transform: uppercase;
+  padding: 12px 34px;
+  font-weight: 500;
+  font-family: oswald;
+  line-height: 24px;
+  letter-spacing: 1.2px;
+  font-size: 16px;
+  background: rgb(255, 82, 0);
+  color: white;
+  transition: all 0.5s ease 0s;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.btn-2:hover {
+  background: rgb(37, 37, 37);
+}
+.information {
+  background: linear-gradient(rgba(37, 37, 37, 0.7), rgba(37, 37, 37, 0.7))
+      center center,
+    url("img/why-choose-us1.jpg");
+  margin-top: 120px;
+  height: 300px;
+}
+.inlist {
+  width: 250px;
+  margin-top: 60px;
+  margin-bottom: 50px;
+  float: left;
+  margin-right: 20px;
+}
+.icon2 {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+.inlist h1 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 50px;
+  font-family: "work sans";
+  line-height: 75px;
+  color: white;
+}
+.inlist h3 {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  font-family: oswald;
+}
+.work-taitle {
+  text-align: center;
+  margin-top: 65px;
+}
+.work-taitle h1 {
+  font-family: oswald;
+  font-size: 40px;
+  line-height: 56px;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+}
+.work-taitle p {
+  font-size: 16px;
+  width: 562px;
+  line-height: 24px;
+  font-family: "work sans";
+  margin: auto;
+  color: rgb(101, 101, 101);
+}
+.work-taitle h2 {
+  border-bottom: 3px solid rgb(255, 82, 0);
+  width: 62px;
+  margin: 10px auto;
+}
+.workwrapper {
+  background: rgb(245, 246, 246);
+}
+.work-img {
+  width: 255px;
+  margin: 65px 30px 65px 0px;
+  float: left;
+}
+.work-img img {
+  width: 100%;
+}
+.work-img h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  font-family: oswald;
+  margin: 10px 0px;
+}
+.work-img p {
+  font-size: 16px;
+  line-height: 24px;
+  color: rgb(101, 101, 101);
+  font-family: "work sans";
+}
+.price {
+  background: rgb(251, 251, 251);
+}
+.price-plan {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.price-plan h1 {
+  font-family: oswald;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 56px;
+}
+.price-plan h2 {
+  border-bottom: 3px solid rgb(255, 82, 0);
+  margin: 10px auto;
+  width: 62px;
+}
+.price-plan p {
+  font-size: 16px;
+  width: 562px;
+  line-height: 24px;
+  font-family: "work sans";
+  margin: auto;
+  color: rgb(101, 101, 101);
+}
+.price-plan-wrapper {
+  background: rgb(255, 255, 255);
+  margin-top: 60px;
+  border: 1px solid rgb(238, 238, 238);
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) 0s;
+}
+.price-plan-wrapper:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.price-plan-list {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+  margin-left: 17px;
+}
+.price-plan-list h3 {
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 36px;
+  font-family: oswald;
+  letter-spacing: 0.52px;
+}
+.price-plan-list h1 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 75px;
+  font-family: "work sans";
+}
+.price-plan-list ul {
+  list-style-type: none;
+}
+.price-plan-list ul li {
+  font-size: 16px;
+  line-height: 32px;
+  font-family: "work sans";
+  color: rgb(101, 101, 101);
+}
+.price-plan-list ul li i {
+  color: rgb(255, 82, 0);
+  font-size: 10px;
+  margin: 0px 7px;
+}
+.bg {
+  background: rgb(250, 250, 250);
+  overflow: hidden;
+}
+.aboutimg {
+  background-image: url("img/s02.jpg");
+  background-position: center center;
+  height: 460px;
+  width: 50%;
+  float: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about-info {
+  margin-top: 60px;
+}
+.about-color {
+  background-color: rgb(34, 34, 34);
+  overflow: hidden;
+}
+.about {
+  float: right;
+  width: 90%;
+}
+.about-title h1 {
+  font-size: 32px;
+  line-height: 45px;
+  font-weight: 500;
+  font-family: oswald;
+  color: white;
+  margin-top: 60px;
+}
+.about-title p {
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+  line-height: 27px;
+  width: 534px;
+  font-family: "work sans";
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+.about-detailsleft {
+  display: inline-block;
+  float: left;
+  padding: 20px;
+}
+.about-detailsright {
+  padding: 20px;
+}
+.ld {
+  color: white;
+  margin-bottom: 34px;
+  margin-right: 45px;
+}
+.ld2 {
+  color: white;
+}
+.ld h2 {
+  margin-bottom: 10px;
+  font-family: oswald;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+}
+.ld p {
+  font-size: 17px;
+  line-height: 24px;
+  font-family: "work sans";
+  overflow: hidden;
+}
+.ld2 h2 {
+  margin-bottom: 10px;
+  font-family: oswald;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+}
+.ld2 p {
+  font-size: 17px;
+  line-height: 24px;
+  font-family: "work sans";
+  overflow: hidden;
+  width: 215px;
+}
+.ic {
+  font-size: 48px;
+  color: rgb(255, 82, 0);
+  float: left;
+  position: relative;
+  right: 25px;
+}
+.meet {
+  margin-top: 80px;
+}
+.team-membar {
+  text-align: center;
+}
+.team {
+  width: 250px;
+  text-align: center;
+  float: left;
+  margin-right: 35px;
+  position: relative;
+}
+.team-img img {
+  max-width: 100%;
+}
+.team h2 {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 500;
+  font-family: oswald;
+}
+.team p {
+  font-size: 13px;
+  line-height: 19.5px;
+  font-family: "work sans";
+  color: rgb(101, 101, 101);
+}
+.joinbtn {
+  margin: 50px 0px;
+  padding: 12px 34px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 1.28px;
+  font-weight: 500;
+  font-family: oswald;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 3px;
+  background: rgb(37, 37, 37);
+  border: none;
+  transition: all 0.5s ease 0s;
+}
+.joinbtn:hover {
+  background: rgb(255, 82, 0);
+  cursor: pointer;
+}
+.team {
+  position: relative;
+}
+.team-img {
+}
+.team-img .scoial {
+  list-style-type: none;
+  position: absolute;
+  left: 20%;
+  bottom: 35%;
+  visibility: hidden;
+  transition: all 0.1s ease 0s;
+}
+.team-img .scoial a {
+  font-size: 15px;
+  border-radius: 100%;
+  padding: 7px;
+  width: 18px;
+  height: 18px;
+  display: block;
+  float: left;
+  text-decoration: none;
+  margin-right: 7px;
+}
+.team-img .scoial a:first-child {
+  background: rgb(59, 89, 152);
+  color: white;
+  transition: all 1s ease 0s;
+}
+.team-img .scoial a:nth-child(2) {
+  background: rgb(0, 172, 238);
+  color: white;
+  transition: all 0.8s ease 0s;
+}
+.team-img .scoial a:nth-child(3) {
+  background: rgb(219, 74, 57);
+  color: white;
+  transition: all 0.6s ease 0s;
+}
+.team-img .scoial a:last-child {
+  background: rgb(14, 118, 168);
+  color: white;
+  transition: all 0.3s ease 0s;
+}
+.team:hover .scoial a {
+  visibility: visible;
+}
+.team:hover .scoial a:first-child {
+  transform: translateY(20px);
+}
+.team:hover .scoial a:nth-child(2) {
+  transform: translateY(20px);
+}
+.team:hover .scoial a:nth-child(3) {
+  transform: translateY(20px);
+}
+.team:hover .scoial a:last-child {
+  transform: translateY(20px);
+}
+.team .scoial a:first-child:hover {
+  background: white;
+  color: black;
+}
+.team .scoial a:nth-child(2):hover {
+  background: white;
+  color: black;
+}
+.team .scoial a:nth-child(3):hover {
+  background: white;
+  color: black;
+}
+.team .scoial a:last-child:hover {
+  background: white;
+  color: black;
+}
+.team-img:hover {
+  cursor: pointer;
+}
+.head {
+  border-right: 1px solid rgb(241, 241, 241);
+  border-bottom: 1px solid rgb(241, 241, 241);
+  border-left: 1px solid rgb(241, 241, 241);
+  border-image: initial;
+  border-top: none;
+  padding-bottom: 30px;
+}
+.flip {
+  width: 30%;
+  position: relative;
+  float: left;
+  margin-right: 37px;
+  margin-bottom: 20px;
+}
+.flip-img {
+}
+.flip-img img {
+  max-width: 100%;
+}
+.flip-title {
+  position: absolute;
+  bottom: 5%;
+  transition: all 0.2s ease 0s;
+  margin-left: 20px;
+}
+.flip-title p {
+  color: white;
+  text-decoration: underline;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 28px;
+  font-family: "work sans";
+}
+.flip-title h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  font-family: oswald;
+  color: white;
+  letter-spacing: 0.4px;
+  width: 300px;
+}
+.learnmore {
+  position: absolute;
+  bottom: 8%;
+  color: white;
+  left: -10px;
+  transition: all 0.5s ease 0s;
+}
+.learnmore a {
+  text-decoration: none;
+  color: white;
+  visibility: hidden;
+  font-size: 15px;
+  font-weight: 200;
+  font-family: "work sans";
+  line-height: 22px;
+}
+.learnmore a i {
+  font-size: 10px;
+  margin-left: 7px;
+}
+.flip:hover .learnmore a {
+  visibility: visible;
+}
+.flip:hover .learnmore {
+  transform: translateX(30px);
+}
+.flip:hover .flip-title {
+  bottom: 18%;
+}
+.bg-color {
+}
+.asp {
+  clear: both;
+}
+.latest-news {
+  width: 30%;
+  border: 1px solid rgb(231, 231, 231);
+  float: left;
+  margin-right: 30px;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+.latest-news:hover .latest-news-img img {
+  transform: scale(1.1);
+}
+.latest-news-img img {
+  max-width: 100%;
+  transition: all 0.3s ease 0s;
+}
+.latest-title {
+  margin-left: 20px;
+  margin-bottom: 18px;
+  margin-top: 15px;
+}
+.latest-title span {
+  font-size: 13px;
+  font-family: "work sans";
+  line-height: 20px;
+}
+.latest-title h2 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0.56px;
+  font-family: oswald;
+  color: rgb(51, 51, 51);
+  margin: 12px 0px;
+}
+.latest-title p {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "work sans";
+  color: rgb(114, 114, 114);
+  width: 300px;
+  margin-bottom: 12px;
+}
+.latest-title a {
+  text-decoration: none;
+  color: rgb(255, 82, 0);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+  font-family: "work sans";
+}
+.latest-title h3 {
+  display: inline-block;
+  border-bottom: 2px solid rgb(255, 82, 0);
+  width: 17px;
+  margin: 0px 10px;
+  position: relative;
+  bottom: 3px;
+}
+.latest-title a i {
+  font-size: 10px;
+  margin-left: 7px;
+  color: rgb(255, 82, 0);
+}
+.footer {
+  background: rgb(255, 82, 0);
+  display: inline-block;
+  width: 1100px;
+  color: white;
+  padding-bottom: 10px;
+  position: relative;
+  top: 65px;
+  border-radius: 3px;
+}
+.subscribe {
+  width: 30%;
+  float: left;
+  padding: 30px;
+}
+.subscribe h2 {
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 500;
+  font-family: oswald;
+  letter-spacing: 0.44px;
+}
+.subscribe input {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-family: "work sans";
+  line-height: 22px;
+  margin-top: 22px;
+}
+.sub {
+  background: rgb(0, 0, 0);
+  color: white;
+  position: relative;
+  right: 35px;
+  padding: 10px 26px 11px !important;
+}
+.contact {
+  width: 30%;
+  float: left;
+  padding: 8px;
+  margin-top: 22px;
+}
+.contact h2 {
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 500;
+  font-family: oswald;
+  letter-spacing: 0.44px;
+  margin-bottom: 18px;
+}
+.contact p {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "work sans";
+}
+.follow-us {
+  width: 30%;
+  float: left;
+  margin-top: 22px;
+  padding: 7px;
+}
+.follow-us h2 {
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 500;
+  font-family: oswald;
+  letter-spacing: 0.44px;
+  margin-bottom: 25px;
+}
+.follow-us a {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  width: 37px;
+  height: 37px;
+  display: inline-block;
+  text-align: center;
+  line-height: 39px;
+  margin-right: 5px;
+  color: rgb(255, 255, 255);
+  transition: all 0.3s ease 0s;
+}
+.follow-us a:hover {
+  background-color: white;
+  color: black;
+}
+.mainfooter {
+  margin-top: 150px;
+  border-bottom: 1px solid rgb(50, 50, 50);
+  overflow: hidden;
+  padding-bottom: 35px;
+}
+.mfooter-color {
+  background-color: rgb(26, 26, 26);
+  overflow: hidden;
+}
+.about-us {
+  width: 25%;
+  float: left;
+}
+.about-us h2 {
+  color: rgb(233, 233, 220);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 31px;
+  font-family: oswald;
+}
+.about-us p {
+  color: rgb(157, 171, 166);
+  font-size: 15px;
+  font-family: "work sans";
+  line-height: 22.5px;
+  width: 245px;
+  margin: 15px 0px;
+}
+.about-us a {
+  color: rgb(157, 171, 166);
+  font-size: 15px;
+  margin-right: 15px;
+  transition: all 0.3s ease 0s;
+}
+.about-us a:hover {
+  color: rgb(255, 82, 0);
+}
+.conttact-btn {
+  float: left;
+}
+.conttact-btn p {
+  color: rgb(157, 171, 166);
+  font-size: 15px;
+  font-family: "work sans";
+  line-height: 22.5px;
+  width: 245px;
+  margin: 10px 0px 10px 25px;
+}
+.conttact-btn h2 {
+  color: rgb(233, 233, 220);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 31px;
+  font-family: oswald;
+}
+.conttact-btn i {
+  color: rgb(255, 82, 0);
+  margin-right: -16px;
+  position: relative;
+  right: 25px;
+}
+.useful-link {
+  width: 25%;
+  float: left;
+  margin-right: 25px;
+}
+.useful-link h2 {
+  color: rgb(233, 233, 220);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 31px;
+  font-family: oswald;
+}
+.useful-link ul {
+  margin-top: 8px;
+}
+.useful-link ul li {
+  list-style-type: none;
+  margin-bottom: 7px;
+  border-bottom: 1.5px dotted rgb(50, 50, 50);
+  padding-bottom: 5px;
+}
+.useful-link ul li a {
+  color: rgb(157, 171, 166);
+  font-size: 16px;
+  font-family: "work sans";
+  line-height: 22.5px;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+}
+.useful-link ul li:last-child {
+  border-bottom: none;
+}
+.useful-link ul li i {
+  margin-right: 10px;
+  font-size: 15px;
+}
+.useful-link ul li a:hover {
+  color: rgb(219, 74, 57);
+}
+.recent-post {
+  width: 20%;
+  float: left;
+  margin: 8px 0px;
+}
+.recent-post h2 {
+  color: rgb(233, 233, 220);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 31px;
+  font-family: oswald;
+}
+.date {
+  width: 50px;
+  background: rgb(49, 49, 49);
+  padding: 3px;
+  text-align: center;
+  border-radius: 3px;
+  color: white;
+  float: left;
+  margin-top: 20px;
+  margin-right: 18px;
+}
+.date h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  font-family: "work sans";
+}
+.date p {
+  font-size: 9px;
+  font-weight: 600;
+  font-family: "work sans";
+  line-height: 13px;
+}
+.catag {
+  margin-top: 20px;
+}
+.catag h3 {
+  color: rgb(157, 171, 166);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  font-family: oswald;
+  letter-spacing: 0.36px;
+  margin-bottom: 10px;
+}
+.catag span {
+  font-size: 12px;
+  font-family: "work sans";
+  line-height: 18px;
+  color: rgb(101, 101, 101);
+  margin-right: 12px;
+}
+.catag i {
+  margin-right: 10px;
+}
+.ft p {
+  color: rgb(157, 171, 166);
+  font-size: 15px;
+  font-family: "work sans";
+  line-height: 22.5px;
+  float: left;
+  width: 867px;
+}
+.ft span {
+  color: rgb(157, 171, 166);
+  font-size: 15px;
+  font-family: "work sans";
+  line-height: 22.5px;
+  word-spacing: 10px;
+  letter-spacing: 0.5px;
+}
