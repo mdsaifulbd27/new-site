@@ -885,6 +885,7 @@
   position: relative;
   right: 35px;
   padding: 10px 26px 11px !important;
+  cursor: pointer;
 }
 .contact {
   width: 30%;
@@ -1039,7 +1040,7 @@
 .recent-post {
   width: 20%;
   float: left;
-  margin: 8px 0px;
+ 
 }
 .recent-post h2 {
   color: rgb(233, 233, 220);
